@@ -2,11 +2,12 @@
 
 [textlint](http://textlint.github.io/ "textlint")の日本語コミュニティ
 
-textlintの日本語関係のルールなどを置く場所やこういうルールとかないの?作れるの?みたいな事を扱う場所です。
+textlintの日本語関係のルールのリポジトリを置いたり、ルールの作り方やこういう事をチェックしたいという話を扱う場所です。
 
 ## Gitter
 
 Gitterに自由にチャットできるチャンネルがあります。
+日本語で問題ないので、気軽に書き込んでください。
 
 [![Join the chat at https://gitter.im/textlint-ja/textlint-ja](https://badges.gitter.im/textlint-ja/textlint-ja.svg)](https://gitter.im/textlint-ja/textlint-ja)
 
