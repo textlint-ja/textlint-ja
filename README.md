@@ -20,6 +20,13 @@ Gitterに自由にチャットできるチャンネルがあります。
 その時に、Organizationの権限がある人がAcceptする必要があるので[New Issue](https://github.com/textlint-ja/textlint-ja/issues/new)からIssueを立てるか、
 [Gitter](https://gitter.im/textlint-ja/textlint-ja)に書き込んでください。
 
-移行後は以下のように手順でREADME.mdなどの書き換えを行ってください。
+Transfer後は以下のように手順でREADME.mdなどの書き換えを行ってください。
 
 - [GitHubで個人リポジトリからOrganizationリポジトリにしてやったこと一覧 - Qiita](http://qiita.com/yu1ro/items/5da82882647b4c400559 "GitHubで個人リポジトリからOrganizationリポジトリにしてやったこと一覧 - Qiita")
+
+また、[transfer-github-owner](https://github.com/azu/transfer-github-owner "transfer-github-owner")を使うことで、READMEやpackage.jsonの書き換えを半自動で行う事ができます。
+
+```js
+npm install -g transfer-github-owner
+transfer-github-owner --from <your-name> --to textlint-ja
+```
