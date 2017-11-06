@@ -11,22 +11,86 @@ Gitterに自由にチャットできるチャンネルがあります。
 
 [![Join the chat at https://gitter.im/textlint-ja/textlint-ja](https://badges.gitter.im/textlint-ja/textlint-ja.svg)](https://gitter.im/textlint-ja/textlint-ja)
 
-## リポジトリをこのOrganizationへ置きたい
+## ガイドライン
 
-リポジトリの設定から"Transfer"をしてください。
+このガイドラインはtextlint-ja organizationの既存、新しいメンバーに対するものです。
 
-- [GitHubのリポジトリを別のOwnerに引き渡す - Qiita](http://qiita.com/do7be/items/fa845240bc58b2153a44 "GitHubのリポジトリを別のOwnerに引き渡す - Qiita")
+このドキュメントは新しいメンバーやパッケージを追加する手順についてを紹介しています。
 
-その時に、Organizationの権限がある人がAcceptする必要があるので[New Issue](https://github.com/textlint-ja/textlint-ja/issues/new)からIssueを立てるか、
-[Gitter](https://gitter.im/textlint-ja/textlint-ja)に書き込んでください。
+## 原則
 
-Transfer後は以下のように手順でREADME.mdなどの書き換えを行ってください。
+- 人がボトルネックになることを避けること
+- 人が正しいことをできるように信用すること(正しくないことが証明されない限り)
 
-- [GitHubで個人リポジトリからOrganizationリポジトリにしてやったこと一覧 - Qiita](http://qiita.com/yu1ro/items/5da82882647b4c400559 "GitHubで個人リポジトリからOrganizationリポジトリにしてやったこと一覧 - Qiita")
+人がボトルネックになるのを避けるためには、すべてのメンバーがプロジェクト管理に必要な権限を扱える必要があります。
 
-また、[transfer-github-owner](https://github.com/azu/transfer-github-owner "transfer-github-owner")を使うことで、READMEやpackage.jsonの書き換えを半自動で行う事ができます。
+いくつかの行動については他のメンバーやコミュニティと適切であるかを話し合ったほうが良いかもしれません。その他については個人の決定を優先して良いでしょう。
 
-```js
-npm install -g transfer-github-owner
-transfer-github-owner --from <your-name> --to textlint-ja
+不適切な行動についてはプロジェクトチームの azuciao+textlint@gmail.com に報告されるかもしれません。
+不適切な行動は [Code of Conduct][] に定義されています。
+
+すべての苦情は、レビュー、調査され、必要かつ適切と判断された対応がとられます。プロジェクトチームは、事象の報告者に関する守秘義務があります。
+
+## For maintainer
+
+メンテナーは自由に新しいメンバーを追加できます。
+
+[Code of Conduct][] に同意でき、プロジェクトに関心がある信用できる人を見つけた場合、次の手順でプロジェクトのメンバーに追加できます。
+
+### GitHub
+
+1. [https://github.com/orgs/textlint-ja/people](https://github.com/orgs/textlint-ja/people) を開く
+2. **Invite member**をクリック
+3. 招待したいメンバーのユーザ名またはEmailを入力
+4. "**Owner**"を選択
+5. Send Invitationする
+
+詳細は [Inviting users to join your organization - User Documentation](https://help.github.com/articles/inviting-users-to-join-your-organization/) を参照してください。
+
+### npm
+
+1. [https://www.npmjs.com/org/textlint-ja/members](https://www.npmjs.com/org/textlint-ja/members)を開く
+2. 招待したいメンバーのユーザ名またはEmailを入力
+3. "**Owner**"を選択
+4. **add member**をクリック
+
+詳細は [Managing Members · npm Orgs Documentation](https://www.npmjs.com/docs/orgs/managing-members.html) を参照してください。
+
+## For new member
+
+Organizationへパッケージを追加するには、次の手順で追加できます。
+
+### GitHub
+
+Organizationへパッケージを追加するには、次の手順で追加できます。
+
+1. [https://github.com/$USER/$PROJECT/settings](https://github.com/%24USER/%24PROJECT/settings) (リポジトリの設定ページ) を開く
+2. **Transfer** をクリック
+3. "New owner's GitHub username or organization name"にtextlint-ja と入力
+4. "I understand, transfer this repository" をクリックして移譲
+
+詳細は [About repository transfers - User Documentation](https://help.github.com/articles/about-repository-transfers/) を参照してください。
+
+### npm
+
+次のコマンドの `$PKGNAME` を自分のパッケージ名に置き換えてから実行してください。
+
+```shell-session
+npm access grant read-write textlint-ja:developers $PKGNAME
 ```
+
+または次の操作でも移譲できます。
+
+1. [https://www.npmjs.com/org/textlint-ja/team/developers/add-package](https://www.npmjs.com/org/textlint-ja/team/developers/add-package) を開く
+2. "Populate from personal packages"の選択肢から移譲したいパッケージ名を選択
+3. **make it so** をクリック
+
+詳細は [Managing Package Access · npm Orgs Documentation](https://www.npmjs.com/docs/orgs/managing-package-access.html) を参照してください。
+
+## Attribution
+
+このガイドラインは [Maintenance Guidelines for Organization](https://maintenance-guidelines-for-organization.github.io/) に基づいています。
+
+このガイドラインは Creative Commons Attribution 4.0 International Public License([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)) のライセンスで利用できます。
+
+[Code of Conduct]: CODE_OF_CONDUCT.md
