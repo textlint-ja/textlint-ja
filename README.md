@@ -81,7 +81,7 @@ npm access grant read-write textlint-ja:developers $PKGNAME
 
 または次の操作でも移譲できます。
 
-1. [https://www.npmjs.com/org/textlint-ja/team/developers/add-package](https://www.npmjs.com/org/textlint-ja/team/developers/add-package) を開く
+1. [https://www.npmjs.com/org/textlint-ja/teams/developers/add-package](https://www.npmjs.com/org/textlint-ja/teams/developers/add-package) を開く
 2. "Populate from personal packages"の選択肢から移譲したいパッケージ名を選択
 3. **make it so** をクリック
 
