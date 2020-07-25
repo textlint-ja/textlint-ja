@@ -1,8 +1,14 @@
 # textlint-ja
 
-[textlint](http://textlint.github.io/ "textlint")の日本語コミュニティ
+[textlint](http://textlint.github.io/ "textlint")の日本語コミュニティです。
 
 textlintの日本語関係のルールのリポジトリを置いたり、ルールの作り方やこういう事をチェックしたいという話を扱う場所です。
+
+また、textlint-jaは複数人でパッケージを管理することで、パッケージのメンテナンス性を保つことを目的にしています。
+textlint-jaにパッケージを移管して複数人で管理したい場合は、次の方法で伝えてください。
+
+- [Issue](https://github.com/textlint-ja/textlint-ja/issues/new)を作成
+- [Gitter](https://gitter.im/textlint-ja/textlint-ja)に書き込む
 
 ## Gitter
 
@@ -40,7 +46,7 @@ Gitterに自由にチャットできるチャンネルがあります。
 ### GitHub
 
 1. [https://github.com/orgs/textlint-ja/people](https://github.com/orgs/textlint-ja/people) を開く
-2. **Invite member**をクリック
+]2. **Invite member**をクリック
 3. 招待したいメンバーのユーザ名またはEmailを入力
 4. "**Owner**"を選択
 5. Send Invitationする
