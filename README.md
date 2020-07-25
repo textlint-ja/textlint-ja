@@ -49,7 +49,7 @@ Gitterに自由にチャットできるチャンネルがあります。
 
 ### npm
 
-1. [https://www.npmjs.com/org/textlint-ja/members](https://www.npmjs.com/org/textlint-ja/members)を開く
+1. <https://www.npmjs.com/settings/textlint-ja/packages> を開く
 2. 招待したいメンバーのユーザ名またはEmailを入力
 3. "**Owner**"を選択
 4. **add member**をクリック
@@ -81,11 +81,11 @@ npm access grant read-write textlint-ja:developers $PKGNAME
 
 または次の操作でも移譲できます。
 
-1. [https://www.npmjs.com/org/textlint-ja/teams/developers/add-package](https://www.npmjs.com/org/textlint-ja/teams/developers/add-package) を開く
+1. <https://www.npmjs.com/settings/textlint-ja/teams/?addPackage=true> を開く
 2. "Populate from personal packages"の選択肢から移譲したいパッケージ名を選択
 3. **make it so** をクリック
 
-詳細は [Managing Package Access · npm Orgs Documentation](https://www.npmjs.com/docs/orgs/managing-package-access.html) を参照してください。
+詳細は [Managing team access to Org packages | npm Documentation](https://docs.npmjs.com/managing-team-access-to-org-packages) を参照してください。
 
 ## Attribution
 
