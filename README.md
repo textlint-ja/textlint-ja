@@ -46,7 +46,7 @@ Gitterに自由にチャットできるチャンネルがあります。
 ### GitHub
 
 1. [https://github.com/orgs/textlint-ja/people](https://github.com/orgs/textlint-ja/people) を開く
-]2. **Invite member**をクリック
+2. **Invite member**をクリック
 3. 招待したいメンバーのユーザ名またはEmailを入力
 4. "**Owner**"を選択
 5. Send Invitationする
